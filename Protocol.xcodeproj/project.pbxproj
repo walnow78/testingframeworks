@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EB35BAB21F9CA0700D41EB2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB35BAA21F9CA0700D41EB2 /* Alamofire.framework */; };
+		0EB35BB021F9CCD600D41EB2 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBCF5221F9B2DD0000DA3F /* RxSwift.framework */; };
+		0EB35BB121F9CCD600D41EB2 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBCF5221F9B2DD0000DA3F /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0EB35BB321F9CE3100D41EB2 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB35BB221F9CE3100D41EB2 /* MBProgressHUD.framework */; };
+		0EB35BB421F9CE3F00D41EB2 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB35BB221F9CE3100D41EB2 /* MBProgressHUD.framework */; };
+		0EB35BB521F9CE3F00D41EB2 /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB35BB221F9CE3100D41EB2 /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0EDBCEDD21F88ADE0000DA3F /* Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EDBCEDB21F88ADE0000DA3F /* Protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EDBCEF121F88C690000DA3F /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBCEF021F88C690000DA3F /* MyClass.swift */; };
-		0EDBCEF321F88D110000DA3F /* MyClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBCEF221F88D110000DA3F /* MyClass2.swift */; };
 		0EDBCF1921F88DF40000DA3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBCF1821F88DF40000DA3F /* AppDelegate.swift */; };
 		0EDBCF1B21F88DF40000DA3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBCF1A21F88DF40000DA3F /* ViewController.swift */; };
 		0EDBCF1E21F88DF40000DA3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EDBCF1C21F88DF40000DA3F /* Main.storyboard */; };
 		0EDBCF2021F88DF50000DA3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDBCF1F21F88DF50000DA3F /* Assets.xcassets */; };
 		0EDBCF2321F88DF50000DA3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EDBCF2121F88DF50000DA3F /* LaunchScreen.storyboard */; };
 		0EDBCF3721F8BE3F0000DA3F /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBCEF021F88C690000DA3F /* MyClass.swift */; };
-		0EDBCF3821F8BE420000DA3F /* MyClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBCEF221F88D110000DA3F /* MyClass2.swift */; };
 		0EDBCF3B21F8D2400000DA3F /* Protocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBCED821F88ADE0000DA3F /* Protocol.framework */; };
 		0EDBCF3C21F8D2400000DA3F /* Protocol.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBCED821F88ADE0000DA3F /* Protocol.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0EDBCF4F21F8D4190000DA3F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBCF4021F8D30A0000DA3F /* RxSwift.framework */; };
-		0EDBCF5021F8D4190000DA3F /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBCF4021F8D30A0000DA3F /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0EDBCF5121F9AA5A0000DA3F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBCF4021F8D30A0000DA3F /* RxSwift.framework */; };
+		0EDBCF7921F9C0690000DA3F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBCF5221F9B2DD0000DA3F /* RxSwift.framework */; };
+		0EDBCF8021F9C0AA0000DA3F /* MyClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBCEF221F88D110000DA3F /* MyClass2.swift */; };
+		0EDBCF8121F9C0AA0000DA3F /* MyClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBCEF221F88D110000DA3F /* MyClass2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +45,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0EDBCF5021F8D4190000DA3F /* RxSwift.framework in Embed Frameworks */,
 				0EDBCF3C21F8D2400000DA3F /* Protocol.framework in Embed Frameworks */,
+				0EB35BB121F9CCD600D41EB2 /* RxSwift.framework in Embed Frameworks */,
+				0EB35BB521F9CE3F00D41EB2 /* MBProgressHUD.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +55,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0EB35BAA21F9CA0700D41EB2 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		0EB35BB221F9CE3100D41EB2 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = "<group>"; };
 		0EDBCED821F88ADE0000DA3F /* Protocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Protocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EDBCEDB21F88ADE0000DA3F /* Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocol.h; sourceTree = "<group>"; };
 		0EDBCEDC21F88ADE0000DA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,11 +69,11 @@
 		0EDBCF1F21F88DF50000DA3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EDBCF2221F88DF50000DA3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EDBCF2421F88DF50000DA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0EDBCF4021F8D30A0000DA3F /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
-		0EDBCF4121F8D30A0000DA3F /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxBlocking.framework; sourceTree = "<group>"; };
-		0EDBCF4221F8D30B0000DA3F /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxAtomic.framework; sourceTree = "<group>"; };
-		0EDBCF4321F8D30B0000DA3F /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
-		0EDBCF4421F8D30B0000DA3F /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxTest.framework; sourceTree = "<group>"; };
+		0EDBCF5221F9B2DD0000DA3F /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		0EDBCF5321F9B2DD0000DA3F /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		0EDBCF5421F9B2DD0000DA3F /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		0EDBCF5521F9B2DD0000DA3F /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		0EDBCF5621F9B2DD0000DA3F /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = Carthage/Build/iOS/RxAtomic.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EDBCF5121F9AA5A0000DA3F /* RxSwift.framework in Frameworks */,
+				0EDBCF7921F9C0690000DA3F /* RxSwift.framework in Frameworks */,
+				0EB35BAB21F9CA0700D41EB2 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,8 +90,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EDBCF4F21F8D4190000DA3F /* RxSwift.framework in Frameworks */,
+				0EB35BB421F9CE3F00D41EB2 /* MBProgressHUD.framework in Frameworks */,
 				0EDBCF3B21F8D2400000DA3F /* Protocol.framework in Frameworks */,
+				0EB35BB021F9CCD600D41EB2 /* RxSwift.framework in Frameworks */,
+				0EB35BB321F9CE3100D41EB2 /* MBProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,11 +154,13 @@
 		0EDBCF3921F8D2380000DA3F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0EDBCF4221F8D30B0000DA3F /* RxAtomic.framework */,
-				0EDBCF4121F8D30A0000DA3F /* RxBlocking.framework */,
-				0EDBCF4321F8D30B0000DA3F /* RxCocoa.framework */,
-				0EDBCF4021F8D30A0000DA3F /* RxSwift.framework */,
-				0EDBCF4421F8D30B0000DA3F /* RxTest.framework */,
+				0EB35BB221F9CE3100D41EB2 /* MBProgressHUD.framework */,
+				0EB35BAA21F9CA0700D41EB2 /* Alamofire.framework */,
+				0EDBCF5621F9B2DD0000DA3F /* RxAtomic.framework */,
+				0EDBCF5421F9B2DD0000DA3F /* RxBlocking.framework */,
+				0EDBCF5321F9B2DD0000DA3F /* RxCocoa.framework */,
+				0EDBCF5221F9B2DD0000DA3F /* RxSwift.framework */,
+				0EDBCF5521F9B2DD0000DA3F /* RxTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,6 +187,7 @@
 				0EDBCED421F88ADE0000DA3F /* Sources */,
 				0EDBCED521F88ADE0000DA3F /* Frameworks */,
 				0EDBCED621F88ADE0000DA3F /* Resources */,
+				0EDBCF7521F9B3E90000DA3F /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -193,6 +206,7 @@
 				0EDBCF1321F88DF40000DA3F /* Frameworks */,
 				0EDBCF1421F88DF40000DA3F /* Resources */,
 				0EDBCF3F21F8D2400000DA3F /* Embed Frameworks */,
+				0EB35BAF21F9CC4C00D41EB2 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -262,13 +276,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EB35BAF21F9CC4C00D41EB2 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/MBProgressHUD.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		0EDBCF7521F9B3E90000DA3F /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0EDBCED421F88ADE0000DA3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0EDBCEF121F88C690000DA3F /* MyClass.swift in Sources */,
-				0EDBCEF321F88D110000DA3F /* MyClass2.swift in Sources */,
+				0EDBCF8121F9C0AA0000DA3F /* MyClass2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +335,7 @@
 				0EDBCF1B21F88DF40000DA3F /* ViewController.swift in Sources */,
 				0EDBCF1921F88DF40000DA3F /* AppDelegate.swift in Sources */,
 				0EDBCF3721F8BE3F0000DA3F /* MyClass.swift in Sources */,
-				0EDBCF3821F8BE420000DA3F /* MyClass2.swift in Sources */,
+				0EDBCF8021F9C0AA0000DA3F /* MyClass2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

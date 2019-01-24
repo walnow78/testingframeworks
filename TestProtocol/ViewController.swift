@@ -9,6 +9,7 @@
 import UIKit
 import Protocol
 import RxSwift
+import MBProgressHUD
 
 class ViewController: UIViewController {
 
@@ -18,7 +19,9 @@ class ViewController: UIViewController {
         
         let myClass = MyClass()
         
+        let _ = DisposeBag()
 
+        
         let result = myClass.sum(n1: 5, n2: 2)
     
         valueTextField.text = "\(result)"
