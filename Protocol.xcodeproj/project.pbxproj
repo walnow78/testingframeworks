@@ -20,11 +20,9 @@
 		0EDBCF1E21F88DF40000DA3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EDBCF1C21F88DF40000DA3F /* Main.storyboard */; };
 		0EDBCF2021F88DF50000DA3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDBCF1F21F88DF50000DA3F /* Assets.xcassets */; };
 		0EDBCF2321F88DF50000DA3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EDBCF2121F88DF50000DA3F /* LaunchScreen.storyboard */; };
-		0EDBCF3721F8BE3F0000DA3F /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBCEF021F88C690000DA3F /* MyClass.swift */; };
 		0EDBCF3B21F8D2400000DA3F /* Protocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBCED821F88ADE0000DA3F /* Protocol.framework */; };
 		0EDBCF3C21F8D2400000DA3F /* Protocol.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBCED821F88ADE0000DA3F /* Protocol.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0EDBCF7921F9C0690000DA3F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBCF5221F9B2DD0000DA3F /* RxSwift.framework */; };
-		0EDBCF8021F9C0AA0000DA3F /* MyClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBCEF221F88D110000DA3F /* MyClass2.swift */; };
 		0EDBCF8121F9C0AA0000DA3F /* MyClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBCEF221F88D110000DA3F /* MyClass2.swift */; };
 /* End PBXBuildFile section */
 
@@ -334,8 +332,6 @@
 			files = (
 				0EDBCF1B21F88DF40000DA3F /* ViewController.swift in Sources */,
 				0EDBCF1921F88DF40000DA3F /* AppDelegate.swift in Sources */,
-				0EDBCF3721F8BE3F0000DA3F /* MyClass.swift in Sources */,
-				0EDBCF8021F9C0AA0000DA3F /* MyClass2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
