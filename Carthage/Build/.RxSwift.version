@@ -13,12 +13,12 @@
       "hash" : "fe905cc4bb90d29b98e0fc0385a7b0a4680d71b2dd7323322e6fb7a08f03c730"
     },
     {
-      "name" : "RxSwift",
-      "hash" : "4e181671621ab200570950f2862a8f4f28b281f3d77091bfa2a499c612064c66"
-    },
-    {
       "name" : "RxCocoa",
       "hash" : "208c50de15a6f7706e8a0e952a3ee1d783f6f0e398b02693a6868f07991b4438"
+    },
+    {
+      "name" : "RxSwift",
+      "hash" : "4e181671621ab200570950f2862a8f4f28b281f3d77091bfa2a499c612064c66"
     }
   ],
   "watchOS" : [
